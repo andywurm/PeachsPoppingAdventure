@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: a85033404c5d943338bb13678962b8c0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - rigid: {instanceID: 0}
+  - knifePrefab: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
