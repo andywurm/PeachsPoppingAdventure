@@ -10,7 +10,7 @@ public class AutoMove3 : MonoBehaviour
   public int scoreCalc = 100;
   public GameObject playerPeach;
   public float fleeDistance = 10.0f;
-bool up = true;
+  bool up = true;
 
   void Start ()
     {
@@ -30,6 +30,7 @@ bool up = true;
       }
 
       ScoreScript.currentScore*= 0;
+      InvokeRepeating("keepTrackOfTime", 1f, 1f);
 
     }
 
@@ -86,6 +87,14 @@ bool up = true;
               up = true;
           }
       }
+    }
+
+    void keepTrackOfTime(){
+        if(scoreCalc == 0){
+          UnityEngine.SceneManagement.SceneManager.LoadScene(3);
+        } else {
+          scoreCalc -= 5;
+        }
     }
 
     private void OnTriggerEnter2D (Collider2D collider)

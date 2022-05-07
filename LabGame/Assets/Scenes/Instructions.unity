@@ -635,7 +635,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.000014305, y: 31.024}
+  m_AnchoredPosition: {x: -0.000014305, y: 20.059}
   m_SizeDelta: {x: 594.9995, y: 342.0487}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1423147625
@@ -660,7 +660,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 652f7165b7c30ab46af6c4aad90a639b, type: 2}
-    m_FontSize: 48
+    m_FontSize: 45
     m_FontStyle: 0
     m_BestFit: 0
     m_MinSize: 2
@@ -670,19 +670,10 @@ MonoBehaviour:
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
-    m_LineSpacing: 1
-  m_Text: 'Instructions
-
-
-    Use the arrow keys to move.
-
-    Use the spacebar to
-    jump.
-
-    Press ctrl to shoot knifes.
-
-
-    Pop boo before he gets too big!'
+    m_LineSpacing: 0.9
+  m_Text: "Instructions\n\nUse the arrow keys to move.\nUse the spacebar to jump.\nPress
+    ctrl to shoot knives.\n\nPop King boo before he gets too \nbig or before time
+    runs out!"
 --- !u!222 &1423147626
 CanvasRenderer:
   m_ObjectHideFlags: 0

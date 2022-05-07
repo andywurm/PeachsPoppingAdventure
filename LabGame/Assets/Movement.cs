@@ -7,11 +7,11 @@ public class Movement : MonoBehaviour
     [SerializeField] float movement;
     [SerializeField] Rigidbody2D rigid;
     [SerializeField] int speed;
-    [SerializeField] bool isFacingRight = true;
+    public static bool isFacingRight = true;
     [SerializeField] bool jumpPressed = false;
     [SerializeField] float jumpForce = 500.0f;
     [SerializeField] bool isGrounded = true;
-     Animator animator; 
+     Animator animator;
 
     [SerializeField] GameObject knifePrefab;
 

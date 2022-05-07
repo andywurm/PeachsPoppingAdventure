@@ -21,7 +21,13 @@ public class MovePin : MonoBehaviour
     {
 
         var temp = transform.position;
-        temp.x += 0.1f;
+
+        // if(Movement.isFacingRight == false || MovementFinal.isFacingRight == false){
+        //   temp.x += -0.1f;
+        // } else{
+          temp.x += 0.1f;
+
+
         transform.position=temp;
 
     }

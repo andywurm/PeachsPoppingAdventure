@@ -80,7 +80,6 @@ public class AutoMove2 : MonoBehaviour
       boo.transform.localScale += scaleChange;
     }
 
-
   }
 
 }

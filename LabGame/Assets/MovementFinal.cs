@@ -7,7 +7,7 @@ public class MovementFinal : MonoBehaviour
   [SerializeField] float movement;
   [SerializeField] Rigidbody2D rigid;
   [SerializeField] int speed;
-  [SerializeField] bool isFacingRight = true;
+  public static bool isFacingRight = true;
   [SerializeField] bool jumpPressed = false;
   [SerializeField] float jumpForce = 500.0f;
   [SerializeField] bool isGrounded = true;
@@ -31,7 +31,7 @@ public class MovementFinal : MonoBehaviour
       movement = Input.GetAxis("Horizontal");
 
       animator.SetFloat("Speed", Mathf.Abs(movement));
-      
+
       if (Input.GetButtonDown("Jump")){
           jumpPressed = true;
       }
